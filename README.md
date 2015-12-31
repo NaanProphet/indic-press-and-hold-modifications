@@ -15,6 +15,8 @@ Additional characters added:
 * ṛ (new group)
 * ṣ
 * ṭ (new group)
+* 
+Note: for all new groups, i arbitrarily chose `<Direction>left</Direction>` but am not sure if it matters.
 
 ## References
 * http://apple.stackexchange.com/questions/49565/how-can-i-expand-the-number-of-special-characters-i-can-type-using-my-keyboard
