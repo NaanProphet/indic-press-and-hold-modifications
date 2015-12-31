@@ -15,7 +15,7 @@ Additional characters added:
 * ṛ (new group)
 * ṣ
 * ṭ (new group)
-* 
+
 Note: for all new groups, i arbitrarily chose `<Direction>left</Direction>` but am not sure if it matters.
 
 ## References
