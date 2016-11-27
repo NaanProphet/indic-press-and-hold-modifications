@@ -2,11 +2,12 @@
 Modifying Mac OS X's default keyboard Press and Hold accents to include commonly romanized characters used in Indian languages (e.g. ṇ, ṣ, etc.)
 
 ## Install
-Replace the respective plist file inside (creating a backup first):
+Replace the respective plist file inside (creating a backup first)
 * For OS X 10.12 Sierra
 ```
 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/Resources
 ```
+No restart is required. Optionally enable System Integration Protection again (see below).
 
 ## Install Prep (starting with 10.11)
 
