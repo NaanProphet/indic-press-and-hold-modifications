@@ -15,9 +15,9 @@ Disable System Integrity Protection first, in order to edit these files:
 1. Boot into the Recovery HD by restarting whilst holding ⌘R
 2. Open Terminal (from the Utilities menu)
 3. Run the following command in Terminal:
-```
-csrutil disable
-```
+      ```
+      csrutil disable
+      ```
 4. Restart
 
 ## Additional characters added
