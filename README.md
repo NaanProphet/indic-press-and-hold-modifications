@@ -1,25 +1,32 @@
 # indic-press-and-hold-modifications
 Modifying Mac OS X's default keyboard Press and Hold accents to include commonly romanized characters used in Indian languages (e.g. ṇ, ṣ, etc.)
 
-## Install
-Replace the respective plist file inside (creating a backup first)
-* For OS X 10.12 Sierra
-```
-/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/Resources
-```
-No restart is required. Optionally enable System Integration Protection again (see below).
+Successfully tested on 10.13.3 High Sierra on a MacBook Air 6,2.
 
-## Install Prep (starting with 10.11)
+## Install Prep (OS X 10.11 El Capitan onwards)
 
 Disable System Integrity Protection first, in order to edit these files:
 
 1. Boot into the Recovery HD by restarting whilst holding ⌘R
+
 2. Open Terminal (from the Utilities menu)
+
 3. Run the following command in Terminal:
-      ```
-      csrutil disable
-      ```
+
+   ```
+   csrutil disable
+   ```
+
 4. Restart
+
+## Install
+
+Replace the respective plist file inside (creating a backup first). It can be helpful to double check the differences first using the `diff` command.
+* For OS X 10.12 Sierra onwards
+```
+/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/Resources
+```
+***No restart is required.*** Optionally boot into Recovery mode and enable System Integration Protection again with the `csrutil enable` command.
 
 ## Additional characters added
 * Ḍ D̥ (new group)
